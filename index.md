@@ -12,16 +12,18 @@
 
 [SSCBlock](#SSCBlock-类)
 
+[SSCThread](#SSCThread-类)
+
 ---
 
 ## 关于 Lua 原生函数的部分差异
 
----
-
 在 SteveScratchC 中，由于图形化和用途等缘故 ~~（还有开发者咕咕咕咕咕咕咕）~~ ，部分功能会不能正常运作。
 
+---
+
 1. `io` 库中的文件流 `stdin` `stdout` `stderr` 均无法正常使用，它们只能在调试版本中的命令提示符中输入输出，请不要在正式版本中使用这些文件流，否则会出现一些无法预料的后果！
-2. `error` 函数可能无法正常的输出栈回溯信息，可能不能更好的帮助调试
+2. `error` 函数可能无法正常的输出栈回溯信息，可能不能更好的帮助调试，也许通过 `debug.traceback()` 可以获得完整的栈回溯
 
 ---
 
@@ -39,7 +41,15 @@
 
 `nil ssc.msgBox(msg)`
 
-显示一个信息框
+显示一个信息框，显示时 Lua 程序会等待信息框关闭后继续执行
+
+`string ssc.askBox(msg)`
+
+显示一个询问框，类似“是、否、取消”的信息框，询问询问结束后会返回以下信息：
+
+* `"yes"` 用户按下“是”钮
+* `"no"` 用户按下“否”钮
+* `"cancel"` 用户按下“取消”钮
 
 `nil ssc.loadProject(filename)`
 
@@ -65,11 +75,15 @@
 
 执行一次程序循环，直到最高耗时结束（默认 1/60 秒左右）（minTime 单位为毫秒）
 
+`table ssc.block`
+
+[SSCBlock](#SSCBlock-类) 所需函数库
+
 ---
 
 ## SSCBlock 类
 
-本类用于对模块的单独操作
+SSCBlock 是 SteveScratchC 中解释器的解释基本单位，它用于执行任何挂载到 SSCBlock 的函数，同时指挥 SSCThread 继续执行下一个模块，你可以通过 `ssc.block.functionName(...)` 来操作 SSCBlock 类。
 
 ---
 
@@ -109,3 +123,15 @@
 
 设置模块 obj 的规范名称，转换字符将被转换成变量槽方便操作，同时模块的所有子模块将被销毁，具体请参考 Scratch 2.0 规范名称格式，仅可以设置在已经定义了自定义执行函数的模块中，成功返回 `true` ，否则返回 `false`
 
+---
+## SSCThread 类
+
+SSCThread 是 SteveScratchC 的模块解释器的重要组成部分，它用于存储一条程序线程的当前状态，并在执行程序循环的时候执行模块和逻辑操作，你可以通过 `ssc.thread.functionName(...)` 来操作 SSCThread 类。
+
+---
+
+`SSCThread ssc.thread.new(SSCBlock block)`
+
+>注意：本函数尚未完成，仍在制作之中（或许会出现在以后的版本）
+
+创建一个线程，并指定第一个模块，且加入到程序循环中。
