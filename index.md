@@ -6,13 +6,13 @@
 
 # 目录
 
-[关于 Lua 原生函数部分差异](#关于-Lua-原生函数的部分差异)
+[关于 Lua 原生函数部分差异](#关于-lua-原生函数的部分差异)
 
-[SSC](#SSC-主函数)
+[SSC](#ssc-主函数)
 
-[SSCBlock](#SSCBlock-类)
+[SSCBlock](#sscblock-类)
 
-[SSCThread](#SSCThread-类)
+[SSCThread](#sscthread-类)
 
 ---
 
@@ -75,9 +75,17 @@
 
 执行一次程序循环，直到最高耗时结束（默认 1/60 秒左右）（minTime 单位为毫秒）
 
+`nil ssc.exit()`
+
+退出 SteveScratchC ，但是会提示用户保存
+
 `table ssc.block`
 
-[SSCBlock](#SSCBlock-类) 所需函数库
+[SSCBlock](#sscblock-类) 所需函数库
+
+`table ssc.thread`
+
+[SSCThread](#sscthread-类) 所需函数库
 
 ---
 
@@ -99,7 +107,7 @@ SSCBlock 是 SteveScratchC 中解释器的解释基本单位，它用于执行�
 
 设置模块 obj 的位置，以代码编辑页面左上角为原点，如某坐标参数为 `nil` 则不对其轴坐标更改
 
-`number,number ssc.block.setPos(SSCBlock obj)`
+`number,number ssc.block.getPos(SSCBlock obj)`
 
 >注意：本函数尚未完成，仍在制作之中（或许会出现在以后的版本）
 
