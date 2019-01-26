@@ -1,3 +1,5 @@
+![](https://raw.githubusercontent.com/Steve-xmh/SSCAPI/master/LOGO-02.png)
+
 # SteveScratchC Lua API
 
 这里是 SteveScratchC 中内嵌语言 Lua 的函数文档，你可以通过已有函数制作插件或自定义模块。
