@@ -2,6 +2,12 @@
 
 [目录](../index.md#目录)
 
+```Lua
+print("Hello SteveScratchC!")
+wait(1)
+print("And hello Lua!")
+```
+
 为了方便外置模块开发者制作属于自己的模块，或者是自己的插件， SteveScratchC 嵌入了 Lua 5.3 来辅助 SteveScratchC 的执行，减轻模块开发负担。
 
 ## 为什么选择 Lua ？
@@ -10,7 +16,7 @@
 
 ## 为什么不使用 LuaJIT ？
 
-LuaJIT 从 2.1.0 Beta3 开始就弃坑到了现在，其语法版本停留在 Lua 5.1 。虽然 LuaJIT 的运行速度非常迅速，但是在 SteveScratchC 中只用作辅助开发，不用做主要语言，且有部分语法和库与官方版本不符，为了保证代码稳定性和功能性，所以选择了官方版本。
+LuaJIT 从 2.1.0 Beta3 开始就弃坑到了现在，其语法停留在 Lua 5.1 。虽然 LuaJIT 的运行速度非常迅速，但是在 SteveScratchC 中只用作辅助开发，不用做主要语言，且有部分语法和库与官方版本不符，为了保证代码稳定性和功能性，所以选择了官方版本。
 说句题外话，最近我在 Github 发现了一个配套了 JIT 功能的 Lua 5.3 二次开发 [Ravi](https://github.com/dibyendumajumdar/ravi) ，虽然提供了 JIT 功能但是却还有部分缺陷，这里就不再叙述了。
 
 ## API 目录
