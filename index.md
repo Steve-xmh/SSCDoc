@@ -3,6 +3,16 @@
 # SteveScratchC 文档
 by SteveXMH
 
+## 目录
+
+- [主页](#SteveScratchC-文档)
+    - [引言](#引言)
+    - [鸣谢](#鸣谢)
+- [Lua API](luaapi/menu.md#SteveScratchC-Lua-API)
+    - [为什么选择 Lua ？](luaapi/menu.md#为什么选择-Lua-？)
+    - [为什么不使用 LuaJIT ？](luaapi/menu.md#为什么不使用-LuaJIT-？)
+    - [API 目录](luaapi/menu.md#API-目录)
+
 ## 引言
 
 欢迎来到 SteveScratchC 的世界！
@@ -23,13 +33,9 @@ by SteveXMH
 **爱发电赞助人员**
 
 - 害怕稽
-
 - 司南
-
 - Sparrow
-
 - CuteSheep233
-
 - 爱发电用户_xTGB
 
  同时在开发途中遇到的大量问题也通过查阅网络博客得到了解决，在这里对那些博客作者表示深切的感谢！ 
