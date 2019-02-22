@@ -24,10 +24,12 @@ LuaJIT 从 2.1.0 Beta3 开始就弃坑到了现在，其语法停留在 Lua 5.1 
 以下为在 Lua 语言中可用的 API ，其中以 `_G` 为首的表按树表的形式列出，如需方便可以使用 `Ctrl + F` 使用浏览器查询功能查询函数。
 为了更加好的发挥 Lua 的对象化特性，许多 C 结构在 Lua 中以 `userdata` 的形式出现，通过 `metatable` 来实现对象操纵，为了识别这些特殊对象，您需要使用 `typeof(对象)` 来查询对象类型名称。
 
-- [`_G` 全局函数](_G.md#_G)
+- [`_G` 全局函数](GLOBAL.md#\_G)
     - **变量**
         - `_SSCVER` SteveScratchC 版本号
         - [`ssc` SteveScratchC 主函数库]()
+            - **变量**
+                - [`block` SSCBlock 类库]()
             - **函数**
                 - `msgBox()` 显示信息框
     - **函数**
