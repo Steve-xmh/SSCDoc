@@ -28,6 +28,16 @@ by SteveXMH
 
 那么这里是爱发电链接，欢迎前来发电赞助：[点我传送](https://afdian.net/@SteveScratchC)
 
+## 引用库
+
+本程序引用了以下链接库：
+
+- [GTK+ 3.0](https://www.gtk.org/)
+- [librsvg 2.0](http://live.gnome.org/LibRsvg)
+- [lua 5.3](http://www.lua.org/)
+
+其上均为开源软件，根据开源协议，所需源代码将在后续免费公布。
+
 ## 鸣谢
 
 在 SteveScratchC 的开发路程中，有许多的爱好者为其做出了支持，在这里罗列出支持者的名单，表示深切的感激，有了支持才有动力！

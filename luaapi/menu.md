@@ -27,9 +27,9 @@ LuaJIT 从 2.1.0 Beta3 开始就弃坑到了现在，其语法停留在 Lua 5.1 
 - [`_G` 全局函数](GLOBAL.md#\_G)
     - **变量**
         - `_SSCVER` SteveScratchC 版本号
-        - [`ssc` SteveScratchC 主函数库]()
+        - [`ssc` SteveScratchC 主函数库](ssc.md#ssc)
             - **变量**
-                - [`block` SSCBlock 类库]()
+                - [`block` SSCBlock 类库](SSCBlock.md#ssc)
             - **函数**
                 - `msgBox()` 显示信息框
     - **函数**
