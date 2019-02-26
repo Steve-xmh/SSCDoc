@@ -33,10 +33,16 @@ by SteveXMH
 本程序引用了以下链接库：
 
 - [GTK+ 3.0](https://www.gtk.org/)
+- [Cairo](https://www.cairographics.org/)
 - [librsvg 2.0](http://live.gnome.org/LibRsvg)
 - [lua 5.3](http://www.lua.org/)
 
 其上均为开源软件，根据开源协议，所需源代码将在后续免费公布。
+
+以下是引用的库所使用的开源协议文档：
+
+- [LGPLv2](lisences/lgplv2.md)
+- [Lua 5.3 MIT](lisences/lua53mit.md)
 
 ## 鸣谢
 
