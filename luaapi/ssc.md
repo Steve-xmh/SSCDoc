@@ -6,7 +6,7 @@
 
 ## 简介
 
-`ssc` 是万物~~恶~~之源，其内存储了全部 SteveScratchC 的接口函数供开发使用。
+`ssc` 是万~~恶~~物之源，其内存储了全部 SteveScratchC 的接口函数供开发使用。
 
 ```lua
 ssc.msgBox("A cute dialog :P")
@@ -21,5 +21,5 @@ ssc.msgBox("A cute dialog :P")
 ## 函数
 
 函数名|用途|出现版本
--|-|-
-暂无
+-|-|-|
+msgBox|弹出一个提示框|AFD v1
