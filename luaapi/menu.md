@@ -36,5 +36,8 @@ LuaJIT 从 2.1.0 Beta3 开始就弃坑到了现在，其语法停留在 Lua 5.1 
     - **函数**
         - `wait(sec)` 等待/让出线程
         
+[![知识共享许可协议](https://i.creativecommons.org/l/by-nc-sa/3.0/cn/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/)
+本作品采用[知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/)进行许可。
+        
 
 
