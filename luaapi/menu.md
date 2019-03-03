@@ -32,7 +32,7 @@ LuaJIT 从 2.1.0 Beta3 开始就弃坑到了现在，其语法停留在 Lua 5.1 
                 - [`block` SSCBlock 类库](SSCBlock.md#sscblock)
                 - [`stage` SSCStage 类库](SSCStage.md#sscstage)
             - **函数**
-                - `msgBox()` 显示信息框
+                - [`msgBox()` 显示信息框](ssc.md#msgboxstring)
     - **函数**
         - `wait(sec)` 等待/让出线程
         
