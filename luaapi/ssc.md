@@ -22,4 +22,16 @@ ssc.msgBox("A cute dialog :P")
 
 函数名|用途|出现版本
 -|-|-|
-msgBox|弹出一个提示框|AFD v1
+msgBox|弹出一个信息框|AFD v1
+
+### msgBox(string)
+#### 作用
+弹出一个信息框
+#### 用法
+```lua
+ssc.msgBox("A cute dialog :P")
+```
+#### 参数
+一个字符串，为信息框展示的内容。
+#### 返回值
+无
