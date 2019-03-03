@@ -25,7 +25,7 @@ by SteveXMH
 
 本软件是闭源程序，为了遵守 LGPL 许可证协议，~~我将会在近期整理出相应的源代码和目标文件并自由发放。~~已经将源代码开源在GitHub上。
 
-GitHub源码链接：[点我传送](https://github/Steve-xmh/SteveScratch)
+GitHub源码链接：[点我传送](https://github.com/Steve-xmh/SteveScratch)
 爱发电赞助链接：[点我传送](https://afdian.net/@SteveScratchC)
 
 ## 引用库
