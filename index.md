@@ -1,4 +1,4 @@
-![网络不好也是很蛋疼阿...](LOGO-02.png)
+![SteveScratchC](LOGO-02.png)
 
 ---
 
