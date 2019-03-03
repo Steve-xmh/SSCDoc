@@ -35,3 +35,6 @@ print(newVar) -- SteveScratch
 函数名|用途|出现版本
 -|-|-
 `wait([时长/秒])`|让出线程，并等待一定时间后继续执行，空则仅让出线程|AFD v1+
+
+[![知识共享许可协议](https://i.creativecommons.org/l/by-nc-sa/3.0/cn/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/)
+本作品采用[知识共享署名-非商业性使用-相同方式共享 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by-nc-sa/3.0/cn/)进行许可。
