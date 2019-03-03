@@ -37,7 +37,7 @@ by SteveXMH
 - [librsvg 2.0](http://live.gnome.org/LibRsvg)
 - [lua 5.3](http://www.lua.org/)
 
-其上均为开源软件，根据开源协议，所需源代码将在后续免费公布。
+其上均为开源软件，根据开源协议，所需源代码~~将在后续~~免费公布。
 
 以下是引用的库所使用的开源协议文档：
 
