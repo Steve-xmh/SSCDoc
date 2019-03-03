@@ -24,7 +24,7 @@ ssc.msgBox("A cute dialog :P")
 -|-|-|
 msgBox|弹出一个信息框|AFD v1
 
-### msgBox(string)
+### msgBox(string msg)
 #### 作用
 弹出一个信息框
 #### 用法
