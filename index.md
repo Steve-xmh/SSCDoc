@@ -58,6 +58,11 @@ by SteveXMH
 - CuteSheep233
 - lvan
 - AlexCui
+- 爱发电用户_gEAS
+- fengshuo
+- 小楼
+- 笨猫
+- Zerlight
 
  同时在开发途中遇到的大量问题也通过查阅网络博客得到了解决，在这里对那些博客作者表示深切的感谢！ 
 
